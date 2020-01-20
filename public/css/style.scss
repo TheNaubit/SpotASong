@@ -12,6 +12,10 @@ body {
   font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
+  -webkit-transition: background-color .5s;
+  -moz-transition: background-color .5s;
+  -ms-transition: background-color .5s;
+  -o-transition: background-color .5s;
   transition: background-color .5s;
 
   div#app {
@@ -49,6 +53,10 @@ a {
 
   //CSS
   div#main {
+    -webkit-transition: margin-left .5s;
+    -moz-transition: margin-left .5s;
+    -ms-transition: margin-left .5s;
+    -o-transition: margin-left .5s;
     transition: margin-left .5s;
     padding: 16px;
 
@@ -89,7 +97,7 @@ a {
           }
 
           div#formatted-mobile-question {
-            margin: 50px 0px 50px 0px;
+            margin: 50px 0px;
 
             p {
               margin: 10px 0px;
@@ -115,9 +123,17 @@ a {
           div {
             padding: 1px 4px;
             border-radius: 25px;
+            -webkit-transition: background .5s;
+            -moz-transition: background .5s;
+            -ms-transition: background .5s;
+            -o-transition: background .5s;
             transition: background .5s;
 
             p {
+              -webkit-transition: color .5s;
+              -moz-transition: color .5s;
+              -ms-transition: color .5s;
+              -o-transition: color .5s;
               transition: color .5s;
               -webkit-touch-callout: none;
               -webkit-user-select: none;
@@ -210,9 +226,17 @@ a {
           div {
             padding: 1px 4px;
             border-radius: 25px;
+            -webkit-transition: background .5s;
+            -moz-transition: background .5s;
+            -ms-transition: background .5s;
+            -o-transition: background .5s;
             transition: background .5s;
 
             p {
+              -webkit-transition: background .5s;
+              -moz-transition: background .5s;
+              -ms-transition: background .5s;
+              -o-transition: background .5s;
               transition: color .5s;
               -webkit-touch-callout: none;
               -webkit-user-select: none;
@@ -283,7 +307,11 @@ a {
     top: 0;
     left: 0;
     overflow-x: hidden;
-    transition: 0.5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
 
     a#btn-close-menu {
       position: absolute;
@@ -434,10 +462,18 @@ a {
             div {
               padding: 1px 4px;
               border-radius: 25px;
+              -webkit-transition: background .5s;
+              -moz-transition: background .5s;
+              -ms-transition: background .5s;
+              -o-transition: background .5s;
               transition: background .5s;
               max-width: 600px;
               p {
                 font-size: 20px;
+                -webkit-transition: color .5s;
+                -moz-transition: color .5s;
+                -ms-transition: color .5s;
+                -o-transition: color .5s;
                 transition: color .5s;
               }
             }
@@ -539,11 +575,19 @@ a {
             div {
               padding: 1px 4px;
               border-radius: 25px;
+              -webkit-transition: background .5s;
+              -moz-transition: background .5s;
+              -ms-transition: background .5s;
+              -o-transition: background .5s;
               transition: background .5s;
               max-width: 600px;
 
               p {
                 font-size: 20px;
+                -webkit-transition: color .5s;
+                -moz-transition: color .5s;
+                -ms-transition: color .5s;
+                -o-transition: color .5s;
                 transition: color .5s;
               }
             }

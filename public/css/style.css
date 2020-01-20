@@ -70,7 +70,7 @@ a {
     display: none;
   }
   div#main div#step-1 div#core-content div#question div#formatted-mobile-question {
-    margin: 50px 0px 50px 0px;
+    margin: 50px 0px;
   }
   div#main div#step-1 div#core-content div#question div#formatted-mobile-question p {
     margin: 10px 0px;
@@ -167,6 +167,7 @@ a {
     transition: background .5s;
   }
   div#main div#step-2 div#core-content div#answers div p {
+    -webkit-transition: background .5s;
     -webkit-transition: color .5s;
     transition: color .5s;
     -webkit-touch-callout: none;
@@ -218,8 +219,8 @@ a {
     top: 0;
     left: 0;
     overflow-x: hidden;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+    -webkit-transition: .5s;
+    transition: .5s;
   }
   div#mobile-panel a#btn-close-menu {
     position: absolute;
